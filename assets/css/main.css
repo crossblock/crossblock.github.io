@@ -1742,6 +1742,13 @@ section.container {
 			margin-bottom: 1rem;
 		}
 	}
+
+.no-wrap {
+	text-wrap: none;
+	word-break-wrap: none;
+	white-space: nowrap;
+}
+
 /* Images */
 /*.image img {*/
 /*	display: block;*/
