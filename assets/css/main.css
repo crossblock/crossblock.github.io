@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300italic,600italic,300,600");
 
 /*
 	Dimension by HTML5 UP
@@ -141,7 +141,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: "Montserrat", sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -1562,7 +1562,7 @@ input, select, textarea {
 			transition: opacity 0.325s ease-in-out, transform 0.325s ease-in-out;
 			padding: 4.5rem 2.5rem 1.5rem 2.5rem ;
 			position: relative;
-			width: 40rem;
+			width: 50rem;
 			max-width: 100%;
 			background-color: rgba(27, 31, 34, 0.85);
 			border-radius: 4px;
@@ -1690,6 +1690,27 @@ section.container {
 	column-gap: 0.5rem;
 }
 
+.banner {
+	align-content: center;
+	text-align: center;
+	flex-grow: 1;
+	flex-shrink: 1;
+	max-width: 100%;
+	background: rgba(255, 255, 255, 0.075);
+	border-color: rgba(255, 255, 255, 0.025);
+	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.005);
+	border-radius: 4px;
+	margin-bottom: 1rem;
+	padding-bottom: 0.5rem;
+}
+
+	.banner > .image > img {
+		width: 100%;
+		overflow: hidden;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
+	}
+
 .profile {
 	align-content: center;
 	text-align: center;
@@ -1701,13 +1722,15 @@ section.container {
 	background: rgba(255, 255, 255, 0.075);
 	border-color: rgba(255, 255, 255, 0.025);
 	box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.005);
-	border-radius: 1rem;
+	border-radius: 4px;
+	font-size: 10pt;
 }
-	.profile > .image {
-		max-height: 50%;
+	.profile > .image > img {
+		width: 100%;
+		/*max-height: 50%;*/
 		overflow: hidden;
-		horizontal-align: center;
-		vertical-align: center;
+		border-bottom-left-radius: 0;
+		border-bottom-right-radius: 0;
 	}
 /* Images */
 /*.image img {*/
